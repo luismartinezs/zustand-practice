@@ -25,6 +25,10 @@ const links = {
       name: "User",
       href: "/user",
     },
+    {
+      name: "Cart",
+      href: "/cart",
+    },
   ],
 };
 
