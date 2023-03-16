@@ -1,4 +1,4 @@
-import { Box, Flex, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, HStack, Link, Text } from "@chakra-ui/react";
 import NextLink from "next/link";
 
 const links = {
@@ -30,7 +30,8 @@ function capitalize(str: string) {
 
 const Header = (): JSX.Element => {
   return (
-    <header>
+    <HStack as="header" gap={2} justifyContent="space-between">
+      <Heading as="h1">Zustand Practice</Heading>
       <Flex as="nav" flexDir="column" gap={2}>
         {Object.entries(links).map(([level, items]) => (
           <Flex key={level} gap={4}>
@@ -48,7 +49,7 @@ const Header = (): JSX.Element => {
           </Flex>
         ))}
       </Flex>
-    </header>
+    </HStack>
   );
 };
 
