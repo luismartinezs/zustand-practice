@@ -1,38 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Zustand practice
 
-## Getting Started
+## Easy Exercises:
 
-First, run the development server:
+- Create a simple counter store using Zustand that stores a count value and has methods to increment and decrement the count.
+- Create a store using Zustand that stores a boolean value indicating whether a modal is open or closed. Add methods to the store to toggle the value of this boolean.
+- Create a store using Zustand that stores an array of strings. Add methods to the store to add and remove strings from the array.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Moderate Exercises:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Create a store using Zustand that stores an array of objects representing tasks. Each task object should have a title, description, and a completed property. Add methods to the store to add, remove, and toggle the completed property of tasks.
+- Create a store using Zustand that stores an object representing a user's authentication state. The object should have properties for the user's email, password, and a boolean indicating whether the user is logged in or not. Add methods to the store to log in and log out the user.
+- Create a store using Zustand that stores an object representing a shopping cart. The object should have properties for the items in the cart, as well as methods to add and remove items, update the quantity of items, and calculate the total cost of the items in the cart.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Difficult Exercises:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Create a store using Zustand that stores an object representing a game board. The object should have properties for the state of each cell on the board (e.g. empty, player1, player2) as well as methods to update the state of cells and check for a win condition.
+- Create a store using Zustand that stores an array of objects representing chat messages. Each message object should have properties for the sender, timestamp, and message text. Add methods to the store to add new messages and fetch previous messages from a server.
+- Create a store using Zustand that stores an object representing a music player. The object should have properties for the currently playing song, the current position in the song, and the playback state (e.g. playing, paused, stopped). Add methods to the store to play, pause, and stop the current song, as well as skip to the next or previous song in a playlist.
