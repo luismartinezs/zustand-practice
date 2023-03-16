@@ -8,8 +8,6 @@ import {
   HStack,
   IconButton,
   Input,
-  ListItem,
-  UnorderedList,
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { CloseIcon } from "@chakra-ui/icons";
