@@ -1,5 +1,4 @@
-import Head from "next/head";
-import { Heading, Text, Button, VStack, HStack } from "@chakra-ui/react";
+import { Heading, Button, VStack, HStack, Badge } from "@chakra-ui/react";
 import { useCounterStore } from "@/store/counter";
 
 export default function Counter() {
@@ -8,23 +7,15 @@ export default function Counter() {
   const decrement = useCounterStore((state) => state.decrement);
 
   return (
-    <>
-      <Head>
-        <title>Zustand practice</title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <main>
-        <VStack>
-          <Heading as="h1">Counter</Heading>
-          <Text>Current value: {count}</Text>
-          <HStack>
-            <Button onClick={decrement}>Decrement</Button>
-            <Button onClick={increment}>Increment</Button>
-          </HStack>
-        </VStack>
-      </main>
-    </>
+    <VStack gap={2} alignItems="flex-start">
+      <Heading as="h1">Counter</Heading>
+      <Badge fontSize={32} px={4}>
+        {count}
+      </Badge>
+      <HStack>
+        <Button onClick={decrement}>Decrement</Button>
+        <Button onClick={increment}>Increment</Button>
+      </HStack>
+    </VStack>
   );
 }
