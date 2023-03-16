@@ -4,7 +4,7 @@
 
 - [x] Create a simple counter store using Zustand that stores a count value and has methods to increment and decrement the count.
 - [x] Create a store using Zustand that stores a boolean value indicating whether a modal is open or closed. Add methods to the store to toggle the value of this boolean.
-- [ ] Create a store using Zustand that stores an array of strings. Add methods to the store to add and remove strings from the array.
+- [x] Create a store using Zustand that stores an array of strings. Add methods to the store to add and remove strings from the array.
 
 ## Moderate Exercises:
 
