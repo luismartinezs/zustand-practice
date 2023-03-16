@@ -8,8 +8,8 @@
 
 ## Moderate Exercises:
 
-- [ ] Create a store using Zustand that stores an array of objects representing tasks. Each task object should have a title, description, and a completed property. Add methods to the store to add, remove, and toggle the completed property of tasks.
-- [ ] Create a store using Zustand that stores an object representing a user's authentication state. The object should have properties for the user's email, password, and a boolean indicating whether the user is logged in or not. Add methods to the store to log in and log out the user.
+- [x] Create a store using Zustand that stores an array of objects representing tasks. Each task object should have a title, description, and a completed property. Add methods to the store to add, remove, and toggle the completed property of tasks.
+- [x] Create a store using Zustand that stores an object representing a user's authentication state. The object should have properties for the user's email, password, and a boolean indicating whether the user is logged in or not. Add methods to the store to log in and log out the user.
 - [ ] Create a store using Zustand that stores an object representing a shopping cart. The object should have properties for the items in the cart, as well as methods to add and remove items, update the quantity of items, and calculate the total cost of the items in the cart.
 
 ## Difficult Exercises:
