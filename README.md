@@ -14,6 +14,6 @@
 
 ## Difficult Exercises:
 
-- [ ] Create a store using Zustand that stores an object representing a game board. The object should have properties for the state of each cell on the board (e.g. empty, player1, player2) as well as methods to update the state of cells and check for a win condition.
+- [x] Create a store using Zustand that stores an object representing a game board. The object should have properties for the state of each cell on the board (e.g. empty, player1, player2) as well as methods to update the state of cells and check for a win condition.
 - [ ] Create a store using Zustand that stores an array of objects representing chat messages. Each message object should have properties for the sender, timestamp, and message text. Add methods to the store to add new messages and fetch previous messages from a server.
 - [ ] Create a store using Zustand that stores an object representing a music player. The object should have properties for the currently playing song, the current position in the song, and the playback state (e.g. playing, paused, stopped). Add methods to the store to play, pause, and stop the current song, as well as skip to the next or previous song in a playlist.
