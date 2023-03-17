@@ -35,6 +35,10 @@ const links = {
       name: "Tic Tac Toe",
       href: "/tictactoe",
     },
+    {
+      name: "Chat",
+      href: "/chat",
+    },
   ],
 };
 
