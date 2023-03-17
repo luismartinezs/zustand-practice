@@ -30,6 +30,12 @@ const links = {
       href: "/cart",
     },
   ],
+  hard: [
+    {
+      name: "Tic Tac Toe",
+      href: "/tictactoe",
+    },
+  ],
 };
 
 function capitalize(str: string) {
