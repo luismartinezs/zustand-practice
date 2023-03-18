@@ -39,6 +39,10 @@ const links = {
       name: "Chat",
       href: "/chat",
     },
+    {
+      name: "Music Player",
+      href: "/music-player",
+    },
   ],
 };
 
